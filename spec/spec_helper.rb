@@ -8,5 +8,5 @@ require 'vcr'
 #VCR config
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/covetous_cassettes'
-  c.stub_with :webmock
+  c.hook_into :webmock
 end

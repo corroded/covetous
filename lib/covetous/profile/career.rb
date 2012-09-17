@@ -1,6 +1,7 @@
 module Covetous
   module Profile
     class Career
+      include HTTParty     
 
       attr_accessor :url
 
