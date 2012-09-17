@@ -1,0 +1,215 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://us.battle.net/api/d3/data/follower/enchantress
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 17 Sep 2012 15:03:32 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Last-Modified:
+      - Thu, 16 Aug 2012 06:38:40 GMT
+      Content-Language:
+      - en-US
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! '{
+
+        "slug" : "enchantress",
+
+        "name" : "Enchantress",
+
+        "realName" : "d3.follower.enchantress.realName",
+
+        "portrait" : "enchantress",
+
+        "skills" : {
+
+        "active" : [ {
+
+        "slug" : "charm",
+
+        "name" : "Charm",
+
+        "icon" : "enchantress_charm",
+
+        "level" : 15,
+
+        "tooltipUrl" : "skill/enchantress/charm",
+
+        "description" : "Charms an enemy to fight for you for 4 seconds.\r\n\r\nCooldown:
+        25 seconds",
+
+        "simpleDescription" : "Temporarily Charms an enemy to fight for you.",
+
+        "skillCalcId" : "a"
+
+        }, {
+
+        "slug" : "forceful-push",
+
+        "name" : "Forceful Push",
+
+        "icon" : "enchantress_forcefulpush",
+
+        "level" : 15,
+
+        "tooltipUrl" : "skill/enchantress/forceful-push",
+
+        "description" : "Summon an Arcane explosion 8 yards around an enemy, dealing
+        100% weapon damage as Arcane and knocking back all monsters caught within
+        it.\r\n\r\nCooldown: 10 seconds",
+
+        "simpleDescription" : "Creates an explosion that deals massive damage and
+        knocks back enemies.",
+
+        "skillCalcId" : "Z"
+
+        }, {
+
+        "slug" : "reflect-missiles",
+
+        "name" : "Reflect Missiles",
+
+        "icon" : "enchantress_reflectmissiles",
+
+        "level" : 20,
+
+        "tooltipUrl" : "skill/enchantress/reflect-missiles",
+
+        "description" : "Place a shield on the Enchantress and her allies that reflects
+        incoming projectiles for 5 seconds.\r\n\r\nCooldown: 20 seconds",
+
+        "simpleDescription" : "Creates a shield around the Enchantress and her allies
+        that reflects projectiles.",
+
+        "skillCalcId" : "b"
+
+        }, {
+
+        "slug" : "powered-armor",
+
+        "name" : "Powered Armor",
+
+        "icon" : "enchantress_poweredarmor",
+
+        "level" : 20,
+
+        "tooltipUrl" : "skill/enchantress/powered-armor",
+
+        "description" : "Enchantress buffs herself and her allies, increasing Armor
+        by 15%. Attackers are slowed by 30% for 3 seconds.",
+
+        "simpleDescription" : "Increases the armor of the Enchantress and her allies,
+        and slows attacking enemies.",
+
+        "skillCalcId" : "Y"
+
+        }, {
+
+        "slug" : "disorient",
+
+        "name" : "Disorient",
+
+        "icon" : "enchantress_disorient",
+
+        "level" : 25,
+
+        "tooltipUrl" : "skill/enchantress/disorient",
+
+        "description" : "Cast a flash of Confusion on a group of enemies in an area,
+        causing them to stumble around disoriented for 2 seconds. \r\n\r\nCooldown:
+        45 seconds",
+
+        "simpleDescription" : "Disorients enemies for a short time.",
+
+        "skillCalcId" : "c"
+
+        }, {
+
+        "slug" : "erosion",
+
+        "name" : "Erosion",
+
+        "icon" : "enchantress_scorchedearth",
+
+        "level" : 25,
+
+        "tooltipUrl" : "skill/enchantress/erosion",
+
+        "description" : "Conjures a pool of energy that deals 50% weapon damage as
+        Arcane  per second. Affected enemies take an extra 15% damage from all attacks
+        for 3 seconds.\r\n\r\nCooldown: 15 seconds",
+
+        "simpleDescription" : "Blasts a target area, causing enemies to take damage
+        over time.",
+
+        "skillCalcId" : "X"
+
+        }, {
+
+        "slug" : "focused-mind",
+
+        "name" : "Focused Mind",
+
+        "icon" : "enchantress_focusedmind",
+
+        "level" : 30,
+
+        "tooltipUrl" : "skill/enchantress/focused-mind",
+
+        "description" : "An aura that increases attack speed by 3% for allies within
+        40 yards.",
+
+        "simpleDescription" : "Increases the attack speed of the Enchantress and her
+        allies.",
+
+        "skillCalcId" : "d"
+
+        }, {
+
+        "slug" : "mass-control",
+
+        "name" : "Mass Control",
+
+        "icon" : "enchantress_masscharm",
+
+        "level" : 30,
+
+        "tooltipUrl" : "skill/enchantress/mass-control",
+
+        "description" : "The Enchantress lobs a bulb of magical energy at the player
+        that will hex all enemies within 8 yards into chickens for 5 seconds. Hexed
+        enemies are unable to perform offensive actions.\r\n\r\nCooldown: 60 seconds",
+
+        "simpleDescription" : "Hexes all nearby enemies.",
+
+        "skillCalcId" : "W"
+
+        } ],
+
+        "passive" : [ ]
+
+        }
+
+        }'
+    http_version: 
+  recorded_at: Mon, 17 Sep 2012 15:03:33 GMT
+recorded_with: VCR 2.2.5

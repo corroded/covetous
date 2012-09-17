@@ -1,0 +1,3298 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://us.battle.net/api/d3/data/artisan/jeweler
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 17 Sep 2012 15:18:54 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Last-Modified:
+      - Thu, 16 Aug 2012 06:38:40 GMT
+      Content-Language:
+      - en-US
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! '{
+
+        "slug" : "jeweler",
+
+        "name" : "Jeweler",
+
+        "portrait" : "pt_jeweler",
+
+        "training" : {
+
+        "tiers" : [ {
+
+        "tier" : 1,
+
+        "levels" : [ {
+
+        "tier" : 1,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "flawed-amethyst",
+
+        "name" : "Flawed Amethyst",
+
+        "cost" : 10,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_01",
+
+        "name" : "Chipped Amethyst",
+
+        "icon" : "amethyst_01_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/chipped-amethyst"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_02",
+
+        "name" : "Flawed Amethyst",
+
+        "icon" : "amethyst_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "flawed-emerald",
+
+        "name" : "Flawed Emerald",
+
+        "cost" : 10,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_01",
+
+        "name" : "Chipped Emerald",
+
+        "icon" : "emerald_01_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/chipped-emerald"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_02",
+
+        "name" : "Flawed Emerald",
+
+        "icon" : "emerald_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "flawed-ruby",
+
+        "name" : "Flawed Ruby",
+
+        "cost" : 10,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_01",
+
+        "name" : "Chipped Ruby",
+
+        "icon" : "ruby_01_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/chipped-ruby"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_02",
+
+        "name" : "Flawed Ruby",
+
+        "icon" : "ruby_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "flawed-topaz",
+
+        "name" : "Flawed Topaz",
+
+        "cost" : 10,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_01",
+
+        "name" : "Chipped Topaz",
+
+        "icon" : "topaz_01_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/chipped-topaz"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_02",
+
+        "name" : "Flawed Topaz",
+
+        "icon" : "topaz_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeCost" : 0
+
+        } ]
+
+        }, {
+
+        "tier" : 2,
+
+        "levels" : [ {
+
+        "tier" : 2,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "amethyst",
+
+        "name" : "Amethyst",
+
+        "cost" : 25,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_02",
+
+        "name" : "Flawed Amethyst",
+
+        "icon" : "amethyst_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-amethyst"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_03",
+
+        "name" : "Amethyst",
+
+        "icon" : "amethyst_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "emerald",
+
+        "name" : "Emerald",
+
+        "cost" : 25,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_02",
+
+        "name" : "Flawed Emerald",
+
+        "icon" : "emerald_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-emerald"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_03",
+
+        "name" : "Emerald",
+
+        "icon" : "emerald_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/emerald"
+
+        }
+
+        }, {
+
+        "slug" : "ruby",
+
+        "name" : "Ruby",
+
+        "cost" : 25,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_02",
+
+        "name" : "Flawed Ruby",
+
+        "icon" : "ruby_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-ruby"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_03",
+
+        "name" : "Ruby",
+
+        "icon" : "ruby_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/ruby"
+
+        }
+
+        }, {
+
+        "slug" : "topaz",
+
+        "name" : "Topaz",
+
+        "cost" : 25,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_02",
+
+        "name" : "Flawed Topaz",
+
+        "icon" : "topaz_02_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawed-topaz"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_03",
+
+        "name" : "Topaz",
+
+        "icon" : "topaz_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ ],
+
+        "upgradeCost" : 5000
+
+        } ]
+
+        }, {
+
+        "tier" : 3,
+
+        "levels" : [ {
+
+        "tier" : 3,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "flawless-amethyst",
+
+        "name" : "Flawless Amethyst",
+
+        "cost" : 40,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_03",
+
+        "name" : "Amethyst",
+
+        "icon" : "amethyst_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/amethyst"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_04",
+
+        "name" : "Flawless Amethyst",
+
+        "icon" : "amethyst_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-emerald",
+
+        "name" : "Flawless Emerald",
+
+        "cost" : 40,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_03",
+
+        "name" : "Emerald",
+
+        "icon" : "emerald_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/emerald"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_04",
+
+        "name" : "Flawless Emerald",
+
+        "icon" : "emerald_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-ruby",
+
+        "name" : "Flawless Ruby",
+
+        "cost" : 40,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_03",
+
+        "name" : "Ruby",
+
+        "icon" : "ruby_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/ruby"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_04",
+
+        "name" : "Flawless Ruby",
+
+        "icon" : "ruby_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-topaz",
+
+        "name" : "Flawless Topaz",
+
+        "cost" : 40,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_03",
+
+        "name" : "Topaz",
+
+        "icon" : "topaz_03_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/topaz"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_04",
+
+        "name" : "Flawless Topaz",
+
+        "icon" : "topaz_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ ],
+
+        "upgradeCost" : 5000
+
+        } ]
+
+        }, {
+
+        "tier" : 4,
+
+        "levels" : [ {
+
+        "tier" : 4,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "perfect-amethyst",
+
+        "name" : "Perfect Amethyst",
+
+        "cost" : 55,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_04",
+
+        "name" : "Flawless Amethyst",
+
+        "icon" : "amethyst_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_05",
+
+        "name" : "Perfect Amethyst",
+
+        "icon" : "amethyst_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-emerald",
+
+        "name" : "Perfect Emerald",
+
+        "cost" : 55,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_04",
+
+        "name" : "Flawless Emerald",
+
+        "icon" : "emerald_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_05",
+
+        "name" : "Perfect Emerald",
+
+        "icon" : "emerald_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-ruby",
+
+        "name" : "Perfect Ruby",
+
+        "cost" : 55,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_04",
+
+        "name" : "Flawless Ruby",
+
+        "icon" : "ruby_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_05",
+
+        "name" : "Perfect Ruby",
+
+        "icon" : "ruby_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-topaz",
+
+        "name" : "Perfect Topaz",
+
+        "cost" : 55,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_04",
+
+        "name" : "Flawless Topaz",
+
+        "icon" : "topaz_04_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_05",
+
+        "name" : "Perfect Topaz",
+
+        "icon" : "topaz_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 10000
+
+        } ]
+
+        }, {
+
+        "tier" : 5,
+
+        "levels" : [ {
+
+        "tier" : 5,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "radiant-amethyst",
+
+        "name" : "Radiant Amethyst",
+
+        "cost" : 70,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_05",
+
+        "name" : "Perfect Amethyst",
+
+        "icon" : "amethyst_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_06",
+
+        "name" : "Radiant Amethyst",
+
+        "icon" : "amethyst_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-emerald",
+
+        "name" : "Radiant Emerald",
+
+        "cost" : 70,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_05",
+
+        "name" : "Perfect Emerald",
+
+        "icon" : "emerald_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_06",
+
+        "name" : "Radiant Emerald",
+
+        "icon" : "emerald_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-ruby",
+
+        "name" : "Radiant Ruby",
+
+        "cost" : 70,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_05",
+
+        "name" : "Perfect Ruby",
+
+        "icon" : "ruby_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_06",
+
+        "name" : "Radiant Ruby",
+
+        "icon" : "ruby_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-topaz",
+
+        "name" : "Radiant Topaz",
+
+        "cost" : 70,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_05",
+
+        "name" : "Perfect Topaz",
+
+        "icon" : "topaz_05_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_06",
+
+        "name" : "Radiant Topaz",
+
+        "icon" : "topaz_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Page_Jeweler",
+
+        "name" : "Page of Jewelcrafting",
+
+        "icon" : "crafting_training_page_jeweler_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/page-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 10000
+
+        } ]
+
+        }, {
+
+        "tier" : 6,
+
+        "levels" : [ {
+
+        "tier" : 6,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "square-amethyst",
+
+        "name" : "Square Amethyst",
+
+        "cost" : 85,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_06",
+
+        "name" : "Radiant Amethyst",
+
+        "icon" : "amethyst_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_07",
+
+        "name" : "Square Amethyst",
+
+        "icon" : "amethyst_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "square-emerald",
+
+        "name" : "Square Emerald",
+
+        "cost" : 85,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_06",
+
+        "name" : "Radiant Emerald",
+
+        "icon" : "emerald_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_07",
+
+        "name" : "Square Emerald",
+
+        "icon" : "emerald_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "square-ruby",
+
+        "name" : "Square Ruby",
+
+        "cost" : 85,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_06",
+
+        "name" : "Radiant Ruby",
+
+        "icon" : "ruby_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_07",
+
+        "name" : "Square Ruby",
+
+        "icon" : "ruby_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "square-topaz",
+
+        "name" : "Square Topaz",
+
+        "cost" : 85,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_06",
+
+        "name" : "Radiant Topaz",
+
+        "icon" : "topaz_06_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_07",
+
+        "name" : "Square Topaz",
+
+        "icon" : "topaz_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 10000
+
+        } ]
+
+        }, {
+
+        "tier" : 7,
+
+        "levels" : [ {
+
+        "tier" : 7,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "flawless-square-amethyst",
+
+        "name" : "Flawless Square Amethyst",
+
+        "cost" : 100,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Amethyst_07",
+
+        "name" : "Square Amethyst",
+
+        "icon" : "amethyst_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_08",
+
+        "name" : "Flawless Square Amethyst",
+
+        "icon" : "amethyst_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-square-emerald",
+
+        "name" : "Flawless Square Emerald",
+
+        "cost" : 100,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Emerald_07",
+
+        "name" : "Square Emerald",
+
+        "icon" : "emerald_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_08",
+
+        "name" : "Flawless Square Emerald",
+
+        "icon" : "emerald_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-square-ruby",
+
+        "name" : "Flawless Square Ruby",
+
+        "cost" : 100,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Ruby_07",
+
+        "name" : "Square Ruby",
+
+        "icon" : "ruby_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_08",
+
+        "name" : "Flawless Square Ruby",
+
+        "icon" : "ruby_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-square-topaz",
+
+        "name" : "Flawless Square Topaz",
+
+        "cost" : 100,
+
+        "reagents" : [ {
+
+        "quantity" : 2,
+
+        "item" : {
+
+        "id" : "Topaz_07",
+
+        "name" : "Square Topaz",
+
+        "icon" : "topaz_07_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/square-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 1,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_08",
+
+        "name" : "Flawless Square Topaz",
+
+        "icon" : "topaz_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Jeweler_Hell",
+
+        "name" : "Tome of Jewelcrafting",
+
+        "icon" : "crafting_training_tome_jeweler_hell_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "item/tome-of-jewelcrafting"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 10000
+
+        } ]
+
+        }, {
+
+        "tier" : 8,
+
+        "levels" : [ {
+
+        "tier" : 8,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "perfect-square-amethyst",
+
+        "name" : "Perfect Square Amethyst",
+
+        "cost" : 30000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_08",
+
+        "name" : "Flawless Square Amethyst",
+
+        "icon" : "amethyst_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_09",
+
+        "name" : "Perfect Square Amethyst",
+
+        "icon" : "amethyst_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-square-emerald",
+
+        "name" : "Perfect Square Emerald",
+
+        "cost" : 30000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_08",
+
+        "name" : "Flawless Square Emerald",
+
+        "icon" : "emerald_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_09",
+
+        "name" : "Perfect Square Emerald",
+
+        "icon" : "emerald_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-square-ruby",
+
+        "name" : "Perfect Square Ruby",
+
+        "cost" : 30000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_08",
+
+        "name" : "Flawless Square Ruby",
+
+        "icon" : "ruby_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_09",
+
+        "name" : "Perfect Square Ruby",
+
+        "icon" : "ruby_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-square-topaz",
+
+        "name" : "Perfect Square Topaz",
+
+        "cost" : 30000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_08",
+
+        "name" : "Flawless Square Topaz",
+
+        "icon" : "topaz_08_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-square-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_09",
+
+        "name" : "Perfect Square Topaz",
+
+        "icon" : "topaz_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 20000
+
+        } ]
+
+        }, {
+
+        "tier" : 9,
+
+        "levels" : [ {
+
+        "tier" : 9,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "radiant-square-amethyst",
+
+        "name" : "Radiant Square Amethyst",
+
+        "cost" : 50000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_09",
+
+        "name" : "Perfect Square Amethyst",
+
+        "icon" : "amethyst_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 6,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_10",
+
+        "name" : "Radiant Square Amethyst",
+
+        "icon" : "amethyst_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-square-emerald",
+
+        "name" : "Radiant Square Emerald",
+
+        "cost" : 50000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_09",
+
+        "name" : "Perfect Square Emerald",
+
+        "icon" : "emerald_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 6,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_10",
+
+        "name" : "Radiant Square Emerald",
+
+        "icon" : "emerald_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-square-ruby",
+
+        "name" : "Radiant Square Ruby",
+
+        "cost" : 50000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_09",
+
+        "name" : "Perfect Square Ruby",
+
+        "icon" : "ruby_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 6,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_10",
+
+        "name" : "Radiant Square Ruby",
+
+        "icon" : "ruby_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-square-topaz",
+
+        "name" : "Radiant Square Topaz",
+
+        "cost" : 50000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_09",
+
+        "name" : "Perfect Square Topaz",
+
+        "icon" : "topaz_09_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-square-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 6,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_10",
+
+        "name" : "Radiant Square Topaz",
+
+        "icon" : "topaz_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 10,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 30000
+
+        } ]
+
+        }, {
+
+        "tier" : 10,
+
+        "levels" : [ {
+
+        "tier" : 10,
+
+        "tierLevel" : 1,
+
+        "percent" : 0,
+
+        "trainedRecipes" : [ {
+
+        "slug" : "star-amethyst",
+
+        "name" : "Star Amethyst",
+
+        "cost" : 80000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_10",
+
+        "name" : "Radiant Square Amethyst",
+
+        "icon" : "amethyst_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 9,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_11",
+
+        "name" : "Star Amethyst",
+
+        "icon" : "amethyst_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "star-emerald",
+
+        "name" : "Star Emerald",
+
+        "cost" : 80000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_10",
+
+        "name" : "Radiant Square Emerald",
+
+        "icon" : "emerald_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 9,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_11",
+
+        "name" : "Star Emerald",
+
+        "icon" : "emerald_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "star-ruby",
+
+        "name" : "Star Ruby",
+
+        "cost" : 80000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_10",
+
+        "name" : "Radiant Square Ruby",
+
+        "icon" : "ruby_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 9,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_11",
+
+        "name" : "Star Ruby",
+
+        "icon" : "ruby_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "star-topaz",
+
+        "name" : "Star Topaz",
+
+        "cost" : 80000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_10",
+
+        "name" : "Radiant Square Topaz",
+
+        "icon" : "topaz_10_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-square-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 9,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_11",
+
+        "name" : "Star Topaz",
+
+        "icon" : "topaz_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-topaz"
+
+        }
+
+        } ],
+
+        "taughtRecipes" : [ {
+
+        "slug" : "flawless-star-amethyst",
+
+        "name" : "Flawless Star Amethyst",
+
+        "cost" : 100000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_11",
+
+        "name" : "Star Amethyst",
+
+        "icon" : "amethyst_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 12,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_12",
+
+        "name" : "Flawless Star Amethyst",
+
+        "icon" : "amethyst_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-star-emerald",
+
+        "name" : "Flawless Star Emerald",
+
+        "cost" : 100000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_11",
+
+        "name" : "Star Emerald",
+
+        "icon" : "emerald_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 12,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_12",
+
+        "name" : "Flawless Star Emerald",
+
+        "icon" : "emerald_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-star-ruby",
+
+        "name" : "Flawless Star Ruby",
+
+        "cost" : 100000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_11",
+
+        "name" : "Star Ruby",
+
+        "icon" : "ruby_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 12,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_12",
+
+        "name" : "Flawless Star Ruby",
+
+        "icon" : "ruby_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "flawless-star-topaz",
+
+        "name" : "Flawless Star Topaz",
+
+        "cost" : 100000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_11",
+
+        "name" : "Star Topaz",
+
+        "icon" : "topaz_11_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/star-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 12,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_12",
+
+        "name" : "Flawless Star Topaz",
+
+        "icon" : "topaz_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-topaz"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-star-amethyst",
+
+        "name" : "Perfect Star Amethyst",
+
+        "cost" : 200000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_12",
+
+        "name" : "Flawless Star Amethyst",
+
+        "icon" : "amethyst_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 15,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_13",
+
+        "name" : "Perfect Star Amethyst",
+
+        "icon" : "amethyst_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-star-emerald",
+
+        "name" : "Perfect Star Emerald",
+
+        "cost" : 200000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_12",
+
+        "name" : "Flawless Star Emerald",
+
+        "icon" : "emerald_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 15,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_13",
+
+        "name" : "Perfect Star Emerald",
+
+        "icon" : "emerald_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-star-ruby",
+
+        "name" : "Perfect Star Ruby",
+
+        "cost" : 200000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_12",
+
+        "name" : "Flawless Star Ruby",
+
+        "icon" : "ruby_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 15,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_13",
+
+        "name" : "Perfect Star Ruby",
+
+        "icon" : "ruby_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "perfect-star-topaz",
+
+        "name" : "Perfect Star Topaz",
+
+        "cost" : 200000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_12",
+
+        "name" : "Flawless Star Topaz",
+
+        "icon" : "topaz_12_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/flawless-star-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 15,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_13",
+
+        "name" : "Perfect Star Topaz",
+
+        "icon" : "topaz_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-topaz"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-star-amethyst",
+
+        "name" : "Radiant Star Amethyst",
+
+        "cost" : 400000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Amethyst_13",
+
+        "name" : "Perfect Star Amethyst",
+
+        "icon" : "amethyst_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-amethyst"
+
+        }
+
+        }, {
+
+        "quantity" : 20,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Amethyst_14",
+
+        "name" : "Radiant Star Amethyst",
+
+        "icon" : "amethyst_14_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-star-amethyst"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-star-emerald",
+
+        "name" : "Radiant Star Emerald",
+
+        "cost" : 400000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Emerald_13",
+
+        "name" : "Perfect Star Emerald",
+
+        "icon" : "emerald_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-emerald"
+
+        }
+
+        }, {
+
+        "quantity" : 20,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Emerald_14",
+
+        "name" : "Radiant Star Emerald",
+
+        "icon" : "emerald_14_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-star-emerald"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-star-ruby",
+
+        "name" : "Radiant Star Ruby",
+
+        "cost" : 400000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Ruby_13",
+
+        "name" : "Perfect Star Ruby",
+
+        "icon" : "ruby_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-ruby"
+
+        }
+
+        }, {
+
+        "quantity" : 20,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Ruby_14",
+
+        "name" : "Radiant Star Ruby",
+
+        "icon" : "ruby_14_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-star-ruby"
+
+        }
+
+        }, {
+
+        "slug" : "radiant-star-topaz",
+
+        "name" : "Radiant Star Topaz",
+
+        "cost" : 400000,
+
+        "reagents" : [ {
+
+        "quantity" : 3,
+
+        "item" : {
+
+        "id" : "Topaz_13",
+
+        "name" : "Perfect Star Topaz",
+
+        "icon" : "topaz_13_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/perfect-star-topaz"
+
+        }
+
+        }, {
+
+        "quantity" : 20,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "itemProduced" : {
+
+        "id" : "Topaz_14",
+
+        "name" : "Radiant Star Topaz",
+
+        "icon" : "topaz_14_demonhunter_male",
+
+        "displayColor" : "white",
+
+        "tooltipParams" : "recipe/radiant-star-topaz"
+
+        }
+
+        } ],
+
+        "upgradeItems" : [ {
+
+        "quantity" : 20,
+
+        "item" : {
+
+        "id" : "Crafting_Training_Tome_Inferno",
+
+        "name" : "Tome of Secrets",
+
+        "icon" : "crafting_training_tome_inferno_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/tome-of-secrets"
+
+        }
+
+        } ],
+
+        "upgradeCost" : 40000
+
+        } ]
+
+        } ]
+
+        }
+
+        }'
+    http_version: 
+  recorded_at: Mon, 17 Sep 2012 15:18:55 GMT
+recorded_with: VCR 2.2.5

@@ -19,10 +19,12 @@ Gem::Specification.new do |gem|
 
 
   gem.add_runtime_dependency 'httparty'
+  gem.add_runtime_dependency 'activesupport', '3.2.8'
 
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'vcr'
   gem.add_development_dependency 'pry'
+  gem.add_development_dependency 'simplecov'
 
 end
