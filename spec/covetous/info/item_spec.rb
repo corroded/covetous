@@ -3,7 +3,7 @@ require 'spec_helper'
 describe 'Item' do
   before do
     VCR.use_cassette('item_data') do
-      @my_item = Covetous::Info::Item.new 'CkMIz4LU4AoSBwgEFX35Tl0dLWYPvh194Mt2Ha3H5XEdElz0_B2H9XtuIgsIARWFQgMAGAAgCjAJOLYEQABIAVAOYPkEGPrl99QLUAZYAA'
+      @my_item = Covetous::Data::Item.new 'CkMIz4LU4AoSBwgEFX35Tl0dLWYPvh194Mt2Ha3H5XEdElz0_B2H9XtuIgsIARWFQgMAGAAgCjAJOLYEQABIAVAOYPkEGPrl99QLUAZYAA'
     end
   end
 

@@ -1,5 +1,5 @@
 module Covetous
-  module Info
+  module Data
     include HTTParty
 
     BASE_URL = "#{Covetous::BASE_URL}/data"
