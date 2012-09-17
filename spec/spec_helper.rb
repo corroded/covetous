@@ -4,6 +4,7 @@ require 'minitest/spec'
 require 'minitest/autorun'
 require 'webmock/minitest'
 require 'vcr'
+require 'pry'
 
 #VCR config
 VCR.configure do |c|

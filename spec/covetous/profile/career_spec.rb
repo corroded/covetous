@@ -22,5 +22,18 @@ describe 'Career' do
     it 'should have all the hero names associated with that profile' do
       @my_profile.hero_names.must_equal ['corrodee', 'corrodeath', 'corrodea', 'corrodead', 'corroder']
     end
+
+    it 'should have the basic data available as methods' do
+      @my_profile.heroes.must_equal                 @my_profile.info['heroes']
+      @my_profile.last_hero_played.must_equal       @my_profile.info['lastHeroPlayed']
+      @my_profile.artisans.must_equal               @my_profile.info['artisans']
+      @my_profile.hardcore_artisans.must_equal      @my_profile.info['hardcoreArtisans']
+      @my_profile.kills.must_equal                  @my_profile.info['kills']
+      @my_profile.time_played.must_equal            @my_profile.info['timePlayed']
+      @my_profile.fallen_heroes.must_equal          @my_profile.info['fallenHeroes']
+      @my_profile.battle_tag.must_equal             @my_profile.info['battleTag']
+      @my_profile.progression.must_equal            @my_profile.info['progression']
+      @my_profile.hardcore_progression.must_equal   @my_profile.info['hardcoreProgression']
+    end
   end
 end

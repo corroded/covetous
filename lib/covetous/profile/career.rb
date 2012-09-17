@@ -1,3 +1,5 @@
+require 'active_support/inflector'
+
 module Covetous
   module Profile
     class Career
@@ -13,8 +15,9 @@ module Covetous
       end
 
       def method_missing(name, *args, &block)
-        if @info.has_key?(name.to_s)
-          @info[name.to_s]
+        camelcased_key = name.to_s.camelize(:lower)
+        if @info.has_key?(camelcased_key)
+          @info[camelcased_key]
         else
           super
         end
