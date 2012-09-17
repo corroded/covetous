@@ -7,7 +7,7 @@ describe 'Career' do
     end
 
     it 'returns your career profile' do
-      @my_profile.must_equal true
+      @my_profile.url.must_equal 'http://us.battle.net/api/d3/profile/corroded-6950/'
     end
   end
 end

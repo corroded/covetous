@@ -1,10 +1,11 @@
 require "covetous/version"
 require 'httparty'
 
-Dir[File.dirname(__FILE__) + '/covetous/**/*.rb'].each do |file|
-  require file
+module Covetous
+  REGION = 'us.battle.net'
+  BASE_URL = "http://#{REGION}/api/d3"
 end
 
-module Covetous
-  # Your code goes here...
+Dir[File.dirname(__FILE__) + '/covetous/**/*.rb'].each do |file|
+  require file
 end

@@ -2,8 +2,10 @@ module Covetous
   module Profile
     class Career
 
-      def self.new(battle_tag)
-        puts "hello"
+      attr_accessor :url
+
+      def initialize(battle_tag)
+        @url = "#{Covetous::Profile::BASE_URL}/#{battle_tag}/"
       end
 
     end
