@@ -24,10 +24,10 @@ describe 'Career' do
     end
 
     it 'should have the basic data available as methods' do
-      basic_data_keys = %w{heroes last_hero_played artisans hardcore_artisans kills time_played fallen_heroes battle_tag progression hardcore_progression}
+      top_level_keys = %w{heroes last_hero_played artisans hardcore_artisans kills time_played fallen_heroes battle_tag progression hardcore_progression}
 
-      basic_data_keys.each do |data_key|
-        @my_profile.send(data_key).must_equal @my_profile.info[data_key.camelize(:lower)]
+      top_level_keys.each do |tl_key|
+        @my_profile.send(tl_key).must_equal @my_profile.response[tl_key.camelize(:lower)]
       end
     end
   end

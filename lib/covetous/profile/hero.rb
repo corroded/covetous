@@ -1,15 +1,11 @@
 module Covetous
   module Profile
-    class Career
+    class Hero
       attr_accessor :url, :response
 
-      def initialize(battle_tag)
-        @url = "#{Covetous::Profile::BASE_URL}/#{battle_tag}/"
+      def initialize(battle_tag, hero_id)
+        @url = "#{Covetous::Profile::BASE_URL}/#{battle_tag}/hero/#{hero_id}"
         @response = Covetous::Profile.get @url
-      end
-
-      def hero_names
-        heroes.map{ |hero| hero['name'] }
       end
 
       def method_missing(name, *args, &block)

@@ -1,5 +1,6 @@
 require "covetous/version"
 require 'httparty'
+require 'active_support/inflector'
 
 module Covetous
   REGION = 'us.battle.net'
