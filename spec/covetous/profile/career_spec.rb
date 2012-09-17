@@ -1,10 +1,13 @@
-require 'minitest/spec'
-require 'minitest/autorun'
-
-require 'covetous/profile/career'
+require 'spec_helper'
 
 describe 'Career' do
-  it 'returns your career profile' do
-    false.must_equal true
+  describe 'when given a battle tag name and id' do
+    before do
+      @my_profile = Covetous::Profile::Career.new('corroded-6950')
+    end
+
+    it 'returns your career profile' do
+      @my_profile.must_equal true
+    end
   end
 end
