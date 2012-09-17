@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe 'Career' do
   before do
-    # VCR.insert_cassette 'career_profile', :record => :once
     VCR.use_cassette('career_profile') do
       @my_profile = Covetous::Profile::Career.new 'corroded-6950'
     end
