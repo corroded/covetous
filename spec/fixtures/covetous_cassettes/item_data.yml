@@ -1,0 +1,210 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://us.battle.net/api/d3/data/item/CkMIz4LU4AoSBwgEFX35Tl0dLWYPvh194Mt2Ha3H5XEdElz0_B2H9XtuIgsIARWFQgMAGAAgCjAJOLYEQABIAVAOYPkEGPrl99QLUAZYAA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 17 Sep 2012 14:44:26 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Last-Modified:
+      - Thu, 16 Aug 2012 06:38:40 GMT
+      Content-Language:
+      - en-US
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json;charset=UTF-8
+    body:
+      encoding: US-ASCII
+      string: ! '{
+
+        "id" : "Helm_206",
+
+        "name" : "Lord Defiance",
+
+        "icon" : "helm_206_witchdoctor_male",
+
+        "displayColor" : "yellow",
+
+        "tooltipParams" : "item/CkMIz4LU4AoSBwgEFX35Tl0dLWYPvh194Mt2Ha3H5XEdElz0_B2H9XtuIgsIARWFQgMAGAAgCjAJOLYEQABIAVAOYPkEGPrl99QLUAZYAA",
+
+        "requiredLevel" : 60,
+
+        "itemLevel" : 63,
+
+        "bonusAffixes" : 0,
+
+        "typeName" : "Rare Helm",
+
+        "type" : {
+
+        "id" : "GenericHelm",
+
+        "twoHanded" : false
+
+        },
+
+        "armor" : {
+
+        "min" : 453.0,
+
+        "max" : 453.0
+
+        },
+
+        "attributes" : [ "+186 Intelligence", "+12% Life", "+18% Extra Gold from Monsters",
+        "Regenerates 75 Life per Second", "Reduces resource cost of Firebats by 5
+        Mana. (Witch Doctor Only)" ],
+
+        "attributesRaw" : {
+
+        "Armor_Item" : {
+
+        "min" : 453.5,
+
+        "max" : 453.5
+
+        },
+
+        "Intelligence_Item" : {
+
+        "min" : 186.0,
+
+        "max" : 186.0
+
+        },
+
+        "Durability_Cur" : {
+
+        "min" : 566.0,
+
+        "max" : 566.0
+
+        },
+
+        "Power_Resource_Reduction#Witchdoctor_Firebats" : {
+
+        "min" : 5.0,
+
+        "max" : 5.0
+
+        },
+
+        "Hitpoints_Max_Percent_Bonus_Item" : {
+
+        "min" : 0.12,
+
+        "max" : 0.12
+
+        },
+
+        "Durability_Max" : {
+
+        "min" : 633.0,
+
+        "max" : 633.0
+
+        },
+
+        "Hitpoints_Regen_Per_Second" : {
+
+        "min" : 75.0,
+
+        "max" : 75.0
+
+        },
+
+        "Gold_Find" : {
+
+        "min" : 0.18,
+
+        "max" : 0.18
+
+        }
+
+        },
+
+        "socketEffects" : [ ],
+
+        "salvage" : [ {
+
+        "chance" : 1.0,
+
+        "item" : {
+
+        "id" : "Crafting_Tier_04B",
+
+        "name" : "Exquisite Essence",
+
+        "icon" : "crafting_tier_04b_demonhunter_male",
+
+        "displayColor" : "blue",
+
+        "tooltipParams" : "item/exquisite-essence"
+
+        },
+
+        "quantity" : 1
+
+        }, {
+
+        "chance" : 1.0,
+
+        "item" : {
+
+        "id" : "Crafting_Tier_04C",
+
+        "name" : "Iridescent Tear",
+
+        "icon" : "crafting_tier_04c_demonhunter_male",
+
+        "displayColor" : "yellow",
+
+        "tooltipParams" : "item/iridescent-tear"
+
+        },
+
+        "quantity" : 1
+
+        }, {
+
+        "chance" : 0.0010,
+
+        "item" : {
+
+        "id" : "Crafting_Tier_04D",
+
+        "name" : "Fiery Brimstone",
+
+        "icon" : "crafting_tier_04d_demonhunter_male",
+
+        "displayColor" : "orange",
+
+        "tooltipParams" : "item/fiery-brimstone"
+
+        },
+
+        "quantity" : 1
+
+        } ],
+
+        "gems" : [ ]
+
+        }'
+    http_version: 
+  recorded_at: Mon, 17 Sep 2012 14:44:26 GMT
+recorded_with: VCR 2.2.5
