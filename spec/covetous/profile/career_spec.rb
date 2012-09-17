@@ -23,12 +23,16 @@ describe 'Career' do
       @my_profile.hero_names.must_equal ['corrodee', 'corrodeath', 'corrodea', 'corrodead', 'corroder']
     end
 
-    it 'should have the basic data available as methods' do
+    it 'should have the top level keys available as methods' do
       top_level_keys = %w{heroes last_hero_played artisans hardcore_artisans kills time_played fallen_heroes battle_tag progression hardcore_progression}
 
       top_level_keys.each do |tl_key|
         @my_profile.send(tl_key).must_equal @my_profile.response[tl_key.camelize(:lower)]
       end
+    end
+
+    it "should throw an error when trying to call a top level key that doesn't exist" do
+      lambda { @my_profile.foo_attribute }.must_raise NoMethodError
     end
   end
 end

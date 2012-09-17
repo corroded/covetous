@@ -25,6 +25,11 @@ describe 'Hero' do
         @my_hero.send(tl_key).must_equal @my_hero.response[tl_key.camelize(:lower)]
       end
     end
+
+    it "should throw an error when trying to call a top level key that doesn't exist" do
+      lambda { @my_hero.foo_attribute }.must_raise NoMethodError
+    end
   end
+
 
 end
