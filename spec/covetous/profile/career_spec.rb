@@ -24,16 +24,11 @@ describe 'Career' do
     end
 
     it 'should have the basic data available as methods' do
-      @my_profile.heroes.must_equal                 @my_profile.info['heroes']
-      @my_profile.last_hero_played.must_equal       @my_profile.info['lastHeroPlayed']
-      @my_profile.artisans.must_equal               @my_profile.info['artisans']
-      @my_profile.hardcore_artisans.must_equal      @my_profile.info['hardcoreArtisans']
-      @my_profile.kills.must_equal                  @my_profile.info['kills']
-      @my_profile.time_played.must_equal            @my_profile.info['timePlayed']
-      @my_profile.fallen_heroes.must_equal          @my_profile.info['fallenHeroes']
-      @my_profile.battle_tag.must_equal             @my_profile.info['battleTag']
-      @my_profile.progression.must_equal            @my_profile.info['progression']
-      @my_profile.hardcore_progression.must_equal   @my_profile.info['hardcoreProgression']
+      basic_data_keys = %w{heroes last_hero_played artisans hardcore_artisans kills time_played fallen_heroes battle_tag progression hardcore_progression}
+
+      basic_data_keys.each do |data_key|
+        @my_profile.send(data_key).must_equal @my_profile.info[data_key.camelize(:lower)]
+      end
     end
   end
 end
