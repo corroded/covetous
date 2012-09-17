@@ -34,4 +34,29 @@ describe 'Career' do
       lambda { @my_profile.foo_attribute }.must_raise NoMethodError
     end
   end
+
+  describe '#get_hero_details_of' do
+    before do
+      VCR.use_cassette('sample_hero_data') do
+        @sample_hero_data = Covetous::Profile::Hero.new 'corroded-6950', '20042961'
+      end
+
+      VCR.use_cassette('get_hero_response') do
+        @get_hero_response = @my_profile.get_hero_details_of('corrodee')
+      end
+    end
+
+    after do
+      VCR.eject_cassette
+      VCR.eject_cassette
+    end
+
+    it 'should return a hero object' do
+      @get_hero_response.must_be_instance_of Covetous::Profile::Hero
+    end
+
+    it 'should raise a NoHeroFoundForProfileError when given a wrong hero name' do
+      lambda { @my_profile.get_hero_details_of('multipleman') }.must_raise NoHeroFoundForProfileError
+    end
+  end
 end
