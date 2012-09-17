@@ -1,6 +1,6 @@
 module Covetous
   module Profile
-    class Career < Covetous::Artisan
+    class Career < Covetous::Shen
       def initialize(battle_tag)
         @url = "#{Covetous::Profile::BASE_URL}/#{battle_tag}/"
         super

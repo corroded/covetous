@@ -1,5 +1,5 @@
 module Covetous
-  class Artisan
+  class Shen
     include HTTParty
 
     attr_accessor :url, :response

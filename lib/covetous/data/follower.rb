@@ -3,7 +3,7 @@ end
 
 module Covetous
   module Data
-    class Follower < Covetous::Artisan
+    class Follower < Covetous::Shen
       FOLLOWER_TYPES = %w{enchantress scoundrel templar}
 
       def initialize(follower_type)
