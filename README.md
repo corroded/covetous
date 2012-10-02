@@ -2,6 +2,8 @@
 
 Covetous is a Ruby Wrapper for the Diablo 3 Web API
 
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/corroded/covetous)
+
 ## Installation
 
 Add this line to your application's Gemfile:
