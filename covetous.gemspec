@@ -26,5 +26,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'vcr'
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'simplecov'
+  gem.add_development_dependency 'coveralls'
 
 end
